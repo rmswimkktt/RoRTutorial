@@ -1,8 +1,9 @@
+<% provide(:title, "About Us") %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ruby on Rails Tutorial Sample App | About Us</title>
+    <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
 </head>
 <body>
 <h1>StaticPages#about</h1>
