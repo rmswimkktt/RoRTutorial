@@ -26,7 +26,7 @@ describe "UserPages" do
     let(:submit) { "Create my account" }
 
     describe "with invalid information" do
-      it "should not create auser" do
+      it "should not create user" do
         expect { click_button submit }.not_to change(User, :count)
       end
     end
